@@ -19,15 +19,15 @@ function multiply () {
 
   if (number2 < 0) {
     negative = !negative
-     number2 = Math.abs(number2)
+    number2 = Math.abs(number2)
 
-  for (counter = 0; counter < number1; counter++) {
+    for (counter = 0; counter < number1; counter++) {
     answer = answer + number2
   }
-  
-  if (negative) {
-    answer = 0 - answer
-  }
+
+    if (negative) {
+      answer = 0 - answer
+     }
   document.getElementById('answer').innerHTML = answer
-}
+  }
 }
